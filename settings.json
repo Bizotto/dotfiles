@@ -6,8 +6,9 @@
   "workbench.colorTheme": "Dracula",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.iconTheme": "material-icon-theme",
-
+  
   // Editor
+  "editor.lineHeight": 1.5,
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 13.5,
@@ -15,11 +16,19 @@
   "editor.tabSize": 2,
   "editor.rulers": [80, 120],
   "editor.renderLineHighlight": "gutter",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
 
   // Terminal
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 14,
 
+  // Git settings
+  "git.enableSmartCommit": true,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+    
   // Material icon theme
   "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.folders.color": "#9E14BD",
@@ -56,6 +65,13 @@
     "factories": "class",
     "repositories": "mappings"
   },
+
+// javaScript and typeScript settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "typescript.tsserver.log": "off",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.autoImports": true,
 
   // Prettier
   "[typescriptreact]": {
