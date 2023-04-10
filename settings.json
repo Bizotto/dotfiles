@@ -1,21 +1,15 @@
 {
-  "window.zoomLevel": -0.5,
-  
-  // Explorer 
+  // Explorer
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-
-  // Workbench
-  "workbench.colorTheme": "Dracula",
   "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
 
   // Editor
   "editor.inlineSuggest.enabled": true,
   "editor.lineHeight": 1.6,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontFamily": "JetBrains Mono", 
   "editor.fontLigatures": true,
   "editor.fontSize": 13.5,
   "editor.formatOnSave": true,
@@ -24,16 +18,28 @@
   "editor.renderLineHighlight": "gutter",
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
+  "editor.accessibilitySupport": "off",
 
   // Terminal
   "terminal.integrated.fontFamily": "JetBrains Mono",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
 
   // Git settings
   "git.enableSmartCommit": true,
   "gitlens.codeLens.recentChange.enabled": false,
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
+  "gitlens.currentLine.enabled": false,
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
 
   // Material icon theme
   "material-icon-theme.folders.color": "#9E14BD",
@@ -148,5 +154,21 @@
     "!rust",
     "!scala",
     "!scss"
-  ],  
+  ],
+
+  // Window 
+  "window.commandCenter": true,
+  "window.zoomLevel": -0.5,
+
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Dracula",
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
 }
+
