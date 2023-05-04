@@ -3,7 +3,6 @@
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
-  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "none",
 
   // Editor
@@ -163,12 +162,12 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "workbench.colorTheme": "Dracula",
-  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
-  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "workbench.colorTheme": "Catppuccin Macchiato",
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.productIconTheme": "material-product-icons",
 }
 
